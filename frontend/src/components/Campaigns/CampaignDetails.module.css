@@ -1,0 +1,206 @@
+/* General Page Styling */
+.campaignDetailsPage {
+    background-color: #ffffff; /* Dark background */
+    color: #ffffff; /* Light text color */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Prevents horizontal scroll */
+  }
+  
+  /* Header Styling */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .createCampaignBtn {
+    background-color: #00b894; /* Green button */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .createCampaignBtn:hover {
+    background-color: #019a7a;
+  }
+  
+  .searchBar {
+    background-color: #ffffff;
+    color: #181717;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black; /* Black border outline */
+    
+    width: 95%;
+  }
+  
+  /* Campaign Container */
+  .campaignContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .leftColumn {
+    flex: 3;
+    max-width: 60%;
+    margin-bottom: 0;
+    padding-right: 15px;
+    padding-bottom: 10px; /* Reduced padding below the image */
+  }
+  
+  .campaignImage {
+    width: 100%;
+    max-height: 355px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .progressBar {
+    background-color: #2d3436;
+    height: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  .progress {
+    background-color: #00b894;
+    height: 80%;
+    border-radius: 5px;
+  }
+  
+  .rightColumn {
+    flex: 1;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 35%;
+  }
+  
+  .stats {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .statItem {
+    background-color: #2d3436;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .statItem h2 {
+    margin: 5px 0;
+    color: #00b894;
+    font-size: 18px;
+  }
+  
+  /* Details Section Layout */
+  .detailsLayout {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add spacing between sections */
+    margin-top: 30px;
+  }
+  
+  .detailsColumn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .creatorSection{
+    background-color: #2d3436;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px; /* Adjust spacing */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    margin-top:10px;
+  }
+  .storySection,
+  .donatorsSection {
+    background-color: #2d3436;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px; /* Adjust spacing */
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Add spacing between elements */
+  }
+  
+  .creatorSection h2,
+  .storySection h2,
+  .donatorsSection h2 {
+    color: #00b894;
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+  
+  .creatorSection span,
+  .storySection p,
+  .donatorsSection ul {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .donatorsSection ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .donatorsSection li {
+    padding: 5px 0;
+    border-bottom: 1px solid #444;
+  }
+  
+  .donatorsSection li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Fund Section */
+  .fundSection {
+    background-color: #2d3436;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px; /* Bring fund section down */
+  }
+  
+  .fundSection input {
+    width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    color: #2d3436;
+  }
+  
+  .fundSection button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6c5ce7;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .fundSection button:hover {
+    background-color: #5a4bcd;
+
+  }
+  
